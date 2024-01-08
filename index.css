@@ -1,0 +1,344 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color:
+        transparent;
+    filter: blur(100%);
+    color:
+        #e8e8ed;
+    width: 100vw;
+    height: 50px;
+    position: relative;
+    position: fixed;
+    top: 0;
+}
+
+.nav-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-1 ul {
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    top: 15px
+}
+
+.nav-1 ul li:hover {
+    color:
+        #ffffff;
+        cursor: pointer;
+
+}
+
+.main {
+    /* width: 100vw; */
+    height:90vh;
+    background: url("images/hero_iphone15pro__i70z9oz3hj2i_mediumtall.jpg") no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.main-info {
+    display: flex;
+    height: 0;
+    align-items: center;
+    margin-top: 110px;
+    flex-direction: column;
+}
+
+.main-info h1 {
+    font-size: 55px;
+    margin: 10px;
+}
+
+.main-info h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.main-links a {
+    margin-right: 20px;
+    color: #2997ff;
+    font-size: 25px;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+
+#section2 {
+    height: 90vh;
+}
+
+.main-2 {
+    position: relative;
+    height: 90vh;
+    background: url("images/hero_iphone15_announce__uuemlcwczn6u_mediumtall.jpg") no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.main2-info {
+    display: flex;
+    height: 0;
+    color: black;
+    align-items: center;
+    margin-top: 110px;
+    flex-direction: column;
+}
+
+.main2-info h1 {
+    font-size: 55px;
+    margin: 10px;
+}
+
+.main2-info h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.main2-links a {
+    margin-right: 20px;
+    color: #2997ff;
+    font-size: 25px;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+
+.main-3 {
+    height: 100vh;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.main-3 video{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+.main3-info {
+    display: block;
+    position: absolute;
+    color: white;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main3-info img,
+h2 {
+    padding: 0px 0px 20px 0px;
+}
+
+.btn1 {
+    width: 120px;
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.btn2 {
+    width: 70px;
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+
+}
+
+
+.main-4 {
+    /* width: 100vw; */
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.card1 {
+    background: url("images/holiday_2023_promo__dirvdl6a3r2a_medium.jpg");
+    background-size: 100% 100%;
+    width: 44.5rem;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-info {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+    & h2{
+        font-size: 40px;
+    }
+     & p{
+        margin-bottom: 10px;
+         width: 290px;
+         text-align: center;
+        font-size: 20px;
+     }
+     & a{
+        text-decoration: none;
+        color: #2997ff;
+    font-size: 22px;
+     }
+}
+
+.card2 {
+    background: url("images/promo_mbp__ek7p477bkp6q_medium.jpg");
+    background-size: 100% 100%;
+    width: 44.5rem;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card3 {
+    background: url("images/promo_apple_watch_ultra2_order__dyxqj5ia98om_medium.jpg");
+    background-size: 100% 100%;
+    width: 44.5rem;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & img{
+        margin-bottom: 17px;
+    }
+}
+
+.card4 {
+    background: url("images/promo_ipad__fioegapg12qi_medium.jpg");
+    background-size: 100% 100%;
+    width: 44.5rem;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card5 {
+    background: url("images/promo_airpods_pro_order__d8xv36p4uwae_medium.jpg");
+    background-size: 100% 100%;
+    width: 44.5rem;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.card6 {
+    background: url("images/promo_iphone_tradein__bugw15ka691e_medium.jpg");
+    background-size: 100% 100%;
+    width: 44.5rem;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & img{
+        margin-bottom: 17px;
+    }
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    padding: 20px;
+}
+.container :is(.f1,.f2,.f3,.f4,.f5){
+    background-color: red;
+    width: 200px;
+    height: 500px;
+}
+
+.footer{
+    background-color: #f5f5f7;
+    font-size: 14px;
+    padding: 20px 245px;
+}
+.footer p{
+    color: 
+    rgba(0, 0, 0, 0.56);
+    font-size: 14px;
+    margin: 20px 0px;
+
+    & a{
+        color: #2997ff;
+    }
+}
+
+.endfooter{
+    font-size: 12px;
+    display: flex;
+    gap: 30px;
+}
+
+.end{
+    display: inline;
+    /* margin-right: 0px; */
+    margin-left: auto;
+}
+.endfooter span a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.56);
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
